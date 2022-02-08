@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'task2';
+  currentItem='';
+  addItem(newItem: string) {
+    this.currentItem=newItem;
+  }
 }

@@ -1,0 +1,5 @@
+<div class="content">
+    <label for="name">Name: </label>
+    <input id="name" type="text" [formControl]="name">
+    <button type="button" (click)="addName(name.value)">Submit</button>
+</div>

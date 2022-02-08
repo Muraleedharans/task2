@@ -1,0 +1,9 @@
+.content{
+    float:left;
+    height:300px;
+    width: 300px;
+    background-color: bisque;
+    margin-left: 20px;
+    align-items: center;
+    text-align: center;
+}
